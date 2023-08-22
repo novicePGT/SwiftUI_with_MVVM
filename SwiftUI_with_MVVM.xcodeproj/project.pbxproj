@@ -15,6 +15,11 @@
 		B863E86B2A938DDA00FFCCC8 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B863E86A2A938DDA00FFCCC8 /* FruitModel.swift */; };
 		B863E86D2A938E2200FFCCC8 /* FruitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B863E86C2A938E2200FFCCC8 /* FruitViewModel.swift */; };
 		B863E86F2A93912300FFCCC8 /* FruitBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B863E86E2A93912300FFCCC8 /* FruitBasicView.swift */; };
+		B863E8712A94572500FFCCC8 /* IOSDeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B863E8702A94572500FFCCC8 /* IOSDeviceModel.swift */; };
+		B863E8732A94576E00FFCCC8 /* IOSDeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B863E8722A94576E00FFCCC8 /* IOSDeviceViewModel.swift */; };
+		B863E8752A94586F00FFCCC8 /* IOSDeviceView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B863E8742A94586F00FFCCC8 /* IOSDeviceView1.swift */; };
+		B863E8772A945C0D00FFCCC8 /* IOSDeviceView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B863E8762A945C0D00FFCCC8 /* IOSDeviceView2.swift */; };
+		B863E87B2A945DEB00FFCCC8 /* IOSDeviceView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B863E87A2A945DEB00FFCCC8 /* IOSDeviceView3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +32,11 @@
 		B863E86A2A938DDA00FFCCC8 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		B863E86C2A938E2200FFCCC8 /* FruitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitViewModel.swift; sourceTree = "<group>"; };
 		B863E86E2A93912300FFCCC8 /* FruitBasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitBasicView.swift; sourceTree = "<group>"; };
+		B863E8702A94572500FFCCC8 /* IOSDeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceModel.swift; sourceTree = "<group>"; };
+		B863E8722A94576E00FFCCC8 /* IOSDeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceViewModel.swift; sourceTree = "<group>"; };
+		B863E8742A94586F00FFCCC8 /* IOSDeviceView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView1.swift; sourceTree = "<group>"; };
+		B863E8762A945C0D00FFCCC8 /* IOSDeviceView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView2.swift; sourceTree = "<group>"; };
+		B863E87A2A945DEB00FFCCC8 /* IOSDeviceView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +100,7 @@
 			children = (
 				B82F3C462A8DC7C80036FB81 /* UserModel.swift */,
 				B863E86A2A938DDA00FFCCC8 /* FruitModel.swift */,
+				B863E8702A94572500FFCCC8 /* IOSDeviceModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -98,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				B863E86C2A938E2200FFCCC8 /* FruitViewModel.swift */,
+				B863E8722A94576E00FFCCC8 /* IOSDeviceViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -107,6 +119,9 @@
 			children = (
 				B82F3C482A8DC8550036FB81 /* UserModelBasicView.swift */,
 				B863E86E2A93912300FFCCC8 /* FruitBasicView.swift */,
+				B863E8742A94586F00FFCCC8 /* IOSDeviceView1.swift */,
+				B863E8762A945C0D00FFCCC8 /* IOSDeviceView2.swift */,
+				B863E87A2A945DEB00FFCCC8 /* IOSDeviceView3.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -181,10 +196,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B863E8752A94586F00FFCCC8 /* IOSDeviceView1.swift in Sources */,
+				B863E8772A945C0D00FFCCC8 /* IOSDeviceView2.swift in Sources */,
 				B863E86F2A93912300FFCCC8 /* FruitBasicView.swift in Sources */,
 				B82F3C472A8DC7C80036FB81 /* UserModel.swift in Sources */,
+				B863E8732A94576E00FFCCC8 /* IOSDeviceViewModel.swift in Sources */,
+				B863E87B2A945DEB00FFCCC8 /* IOSDeviceView3.swift in Sources */,
 				B82F3C342A8DC5C40036FB81 /* SwiftUI_with_MVVMApp.swift in Sources */,
 				B863E86D2A938E2200FFCCC8 /* FruitViewModel.swift in Sources */,
+				B863E8712A94572500FFCCC8 /* IOSDeviceModel.swift in Sources */,
 				B863E86B2A938DDA00FFCCC8 /* FruitModel.swift in Sources */,
 				B82F3C492A8DC8550036FB81 /* UserModelBasicView.swift in Sources */,
 			);
