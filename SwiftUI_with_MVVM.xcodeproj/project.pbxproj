@@ -27,6 +27,11 @@
 		B863E8752A94586F00FFCCC8 /* IOSDeviceView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B863E8742A94586F00FFCCC8 /* IOSDeviceView1.swift */; };
 		B863E8772A945C0D00FFCCC8 /* IOSDeviceView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B863E8762A945C0D00FFCCC8 /* IOSDeviceView2.swift */; };
 		B863E87B2A945DEB00FFCCC8 /* IOSDeviceView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B863E87A2A945DEB00FFCCC8 /* IOSDeviceView3.swift */; };
+		B8BABE382A983EC700C8E4BB /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BABE372A983EC700C8E4BB /* SplashView.swift */; };
+		B8BABE3A2A983F3D00C8E4BB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BABE392A983F3D00C8E4BB /* HomeView.swift */; };
+		B8BABE3C2A9867A700C8E4BB /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BABE3B2A9867A700C8E4BB /* VideoView.swift */; };
+		B8BABE3E2A9867B800C8E4BB /* GallaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BABE3D2A9867B800C8E4BB /* GallaryView.swift */; };
+		B8BABE402A9867CA00C8E4BB /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BABE3F2A9867CA00C8E4BB /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +56,11 @@
 		B863E8742A94586F00FFCCC8 /* IOSDeviceView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView1.swift; sourceTree = "<group>"; };
 		B863E8762A945C0D00FFCCC8 /* IOSDeviceView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView2.swift; sourceTree = "<group>"; };
 		B863E87A2A945DEB00FFCCC8 /* IOSDeviceView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView3.swift; sourceTree = "<group>"; };
+		B8BABE372A983EC700C8E4BB /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		B8BABE392A983F3D00C8E4BB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B8BABE3B2A9867A700C8E4BB /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		B8BABE3D2A9867B800C8E4BB /* GallaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallaryView.swift; sourceTree = "<group>"; };
+		B8BABE3F2A9867CA00C8E4BB /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +99,6 @@
 				B83881E32A96FFFC003C45C1 /* ViewModel */,
 				B83881E22A96FFED003C45C1 /* Extentions */,
 				B83881E12A96FFE0003C45C1 /* View */,
-				B82F3C332A8DC5C40036FB81 /* SwiftUI_with_MVVMApp.swift */,
 				B82F3C412A8DC7160036FB81 /* MVVM */,
 				B82F3C372A8DC5C60036FB81 /* Assets.xcassets */,
 				B82F3C392A8DC5C60036FB81 /* Preview Content */,
@@ -184,6 +193,9 @@
 		B83881E52A97001A003C45C1 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				B82F3C332A8DC5C40036FB81 /* SwiftUI_with_MVVMApp.swift */,
+				B8BABE372A983EC700C8E4BB /* SplashView.swift */,
+				B8BABE392A983F3D00C8E4BB /* HomeView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -191,6 +203,7 @@
 		B83881E62A970038003C45C1 /* AppInfo */ = {
 			isa = PBXGroup;
 			children = (
+				B8BABE3F2A9867CA00C8E4BB /* InfoView.swift */,
 			);
 			path = AppInfo;
 			sourceTree = "<group>";
@@ -198,6 +211,7 @@
 		B83881E72A97004F003C45C1 /* GallaryView */ = {
 			isa = PBXGroup;
 			children = (
+				B8BABE3D2A9867B800C8E4BB /* GallaryView.swift */,
 			);
 			path = GallaryView;
 			sourceTree = "<group>";
@@ -205,6 +219,7 @@
 		B83881E82A97005A003C45C1 /* VideoView */ = {
 			isa = PBXGroup;
 			children = (
+				B8BABE3B2A9867A700C8E4BB /* VideoView.swift */,
 			);
 			path = VideoView;
 			sourceTree = "<group>";
@@ -301,12 +316,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				B863E8752A94586F00FFCCC8 /* IOSDeviceView1.swift in Sources */,
+				B8BABE382A983EC700C8E4BB /* SplashView.swift in Sources */,
 				B863E8772A945C0D00FFCCC8 /* IOSDeviceView2.swift in Sources */,
 				B863E86F2A93912300FFCCC8 /* FruitBasicView.swift in Sources */,
 				B82F3C472A8DC7C80036FB81 /* UserModel.swift in Sources */,
+				B8BABE3A2A983F3D00C8E4BB /* HomeView.swift in Sources */,
+				B8BABE3C2A9867A700C8E4BB /* VideoView.swift in Sources */,
 				B83881F52A9703C2003C45C1 /* FrameExtenstion.swift in Sources */,
+				B8BABE402A9867CA00C8E4BB /* InfoView.swift in Sources */,
 				B863E8732A94576E00FFCCC8 /* IOSDeviceViewModel.swift in Sources */,
 				B863E87B2A945DEB00FFCCC8 /* IOSDeviceView3.swift in Sources */,
+				B8BABE3E2A9867B800C8E4BB /* GallaryView.swift in Sources */,
 				B82F3C342A8DC5C40036FB81 /* SwiftUI_with_MVVMApp.swift in Sources */,
 				B863E86D2A938E2200FFCCC8 /* FruitViewModel.swift in Sources */,
 				B83881E02A95A28C003C45C1 /* AppStorageBasic.swift in Sources */,
