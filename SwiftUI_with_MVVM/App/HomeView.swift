@@ -8,9 +8,13 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    // property
+    @StateObject var vm: AnimalViewModel = AnimalViewModel()
+    
     var body: some View {
         TabView {
-            ContentView()
+            ContentView(vm: vm)
                 .tabItem {
                     Image(systemName: "house.fill")
                     Text("홈")

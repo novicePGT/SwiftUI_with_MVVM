@@ -8,13 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    // property
+    @ObservedObject var vm: AnimalViewModel
+    
     var body: some View {
-        Text("ContentView")
+        NavigationView {
+            List {
+                CoverImageView(vm: vm)
+            }//: List
+            .navigationBarTitle("멸종위기 동물들")
+        }//: Navigationview
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(vm: AnimalViewModel())
     }
 }

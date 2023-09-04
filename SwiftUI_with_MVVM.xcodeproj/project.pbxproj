@@ -32,6 +32,9 @@
 		B8BABE3C2A9867A700C8E4BB /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BABE3B2A9867A700C8E4BB /* VideoView.swift */; };
 		B8BABE3E2A9867B800C8E4BB /* GallaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BABE3D2A9867B800C8E4BB /* GallaryView.swift */; };
 		B8BABE402A9867CA00C8E4BB /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BABE3F2A9867CA00C8E4BB /* InfoView.swift */; };
+		B8BABE422AA5CBEC00C8E4BB /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BABE412AA5CBEC00C8E4BB /* AnimalModel.swift */; };
+		B8BABE442AA5CE0E00C8E4BB /* AnimalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BABE432AA5CE0E00C8E4BB /* AnimalViewModel.swift */; };
+		B8BABE462AA5D16400C8E4BB /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BABE452AA5D16400C8E4BB /* CoverImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +64,9 @@
 		B8BABE3B2A9867A700C8E4BB /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		B8BABE3D2A9867B800C8E4BB /* GallaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallaryView.swift; sourceTree = "<group>"; };
 		B8BABE3F2A9867CA00C8E4BB /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		B8BABE412AA5CBEC00C8E4BB /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
+		B8BABE432AA5CE0E00C8E4BB /* AnimalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalViewModel.swift; sourceTree = "<group>"; };
+		B8BABE452AA5D16400C8E4BB /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +185,7 @@
 		B83881E32A96FFFC003C45C1 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				B8BABE432AA5CE0E00C8E4BB /* AnimalViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -186,6 +193,7 @@
 		B83881E42A97000B003C45C1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B8BABE412AA5CBEC00C8E4BB /* AnimalModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -228,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				B83881EA2A970095003C45C1 /* ContentView.swift */,
+				B8BABE452AA5D16400C8E4BB /* CoverImageView.swift */,
 			);
 			path = ContentView;
 			sourceTree = "<group>";
@@ -316,6 +325,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B863E8752A94586F00FFCCC8 /* IOSDeviceView1.swift in Sources */,
+				B8BABE462AA5D16400C8E4BB /* CoverImageView.swift in Sources */,
+				B8BABE422AA5CBEC00C8E4BB /* AnimalModel.swift in Sources */,
 				B8BABE382A983EC700C8E4BB /* SplashView.swift in Sources */,
 				B863E8772A945C0D00FFCCC8 /* IOSDeviceView2.swift in Sources */,
 				B863E86F2A93912300FFCCC8 /* FruitBasicView.swift in Sources */,
@@ -330,6 +341,7 @@
 				B82F3C342A8DC5C40036FB81 /* SwiftUI_with_MVVMApp.swift in Sources */,
 				B863E86D2A938E2200FFCCC8 /* FruitViewModel.swift in Sources */,
 				B83881E02A95A28C003C45C1 /* AppStorageBasic.swift in Sources */,
+				B8BABE442AA5CE0E00C8E4BB /* AnimalViewModel.swift in Sources */,
 				B83881F72A9705A1003C45C1 /* File.swift in Sources */,
 				B863E8712A94572500FFCCC8 /* IOSDeviceModel.swift in Sources */,
 				B83881EB2A970095003C45C1 /* ContentView.swift in Sources */,
