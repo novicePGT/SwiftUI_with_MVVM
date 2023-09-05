@@ -35,6 +35,8 @@
 		B8BABE422AA5CBEC00C8E4BB /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BABE412AA5CBEC00C8E4BB /* AnimalModel.swift */; };
 		B8BABE442AA5CE0E00C8E4BB /* AnimalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BABE432AA5CE0E00C8E4BB /* AnimalViewModel.swift */; };
 		B8BABE462AA5D16400C8E4BB /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BABE452AA5D16400C8E4BB /* CoverImageView.swift */; };
+		B8BABE482AA6CA4800C8E4BB /* AnimalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BABE472AA6CA4800C8E4BB /* AnimalListView.swift */; };
+		B8BABE4A2AA6CC0D00C8E4BB /* CreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BABE492AA6CC0D00C8E4BB /* CreditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +69,8 @@
 		B8BABE412AA5CBEC00C8E4BB /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
 		B8BABE432AA5CE0E00C8E4BB /* AnimalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalViewModel.swift; sourceTree = "<group>"; };
 		B8BABE452AA5D16400C8E4BB /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		B8BABE472AA6CA4800C8E4BB /* AnimalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListView.swift; sourceTree = "<group>"; };
+		B8BABE492AA6CC0D00C8E4BB /* CreditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +240,8 @@
 			isa = PBXGroup;
 			children = (
 				B83881EA2A970095003C45C1 /* ContentView.swift */,
+				B8BABE492AA6CC0D00C8E4BB /* CreditView.swift */,
+				B8BABE472AA6CA4800C8E4BB /* AnimalListView.swift */,
 				B8BABE452AA5D16400C8E4BB /* CoverImageView.swift */,
 			);
 			path = ContentView;
@@ -332,6 +338,7 @@
 				B863E86F2A93912300FFCCC8 /* FruitBasicView.swift in Sources */,
 				B82F3C472A8DC7C80036FB81 /* UserModel.swift in Sources */,
 				B8BABE3A2A983F3D00C8E4BB /* HomeView.swift in Sources */,
+				B8BABE482AA6CA4800C8E4BB /* AnimalListView.swift in Sources */,
 				B8BABE3C2A9867A700C8E4BB /* VideoView.swift in Sources */,
 				B83881F52A9703C2003C45C1 /* FrameExtenstion.swift in Sources */,
 				B8BABE402A9867CA00C8E4BB /* InfoView.swift in Sources */,
@@ -342,6 +349,7 @@
 				B863E86D2A938E2200FFCCC8 /* FruitViewModel.swift in Sources */,
 				B83881E02A95A28C003C45C1 /* AppStorageBasic.swift in Sources */,
 				B8BABE442AA5CE0E00C8E4BB /* AnimalViewModel.swift in Sources */,
+				B8BABE4A2AA6CC0D00C8E4BB /* CreditView.swift in Sources */,
 				B83881F72A9705A1003C45C1 /* File.swift in Sources */,
 				B863E8712A94572500FFCCC8 /* IOSDeviceModel.swift in Sources */,
 				B83881EB2A970095003C45C1 /* ContentView.swift in Sources */,

@@ -10,15 +10,23 @@ import SwiftUI
 struct CoverImageView: View {
     
     // property
-    @ObservedObject var vm: AniamlViewModel
+    @ObservedObject var vm: AnimalViewModel
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView {
+            ForEach(vm.coverImages) { cover in
+                Image(cover.name)
+                    .resizable()
+                    .scaledToFit()
+            } //:LOOP
+        } //:TABVIEW
+        .tabViewStyle(.page)
     }
 }
 
 struct CoverImageView_Previews: PreviewProvider {
     static var previews: some View {
         CoverImageView(vm: AnimalViewModel())
+            .previewLayout(.fixed(width: 400, height: 300))
     }
 }

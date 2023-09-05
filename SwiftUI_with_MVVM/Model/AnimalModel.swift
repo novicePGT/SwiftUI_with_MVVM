@@ -31,3 +31,8 @@ struct Animal: Identifiable, Codable {
         "해외에는 중국 동북 지구, 만주, 길림성, 송화강, 목단강, 우수리에 분포하고 있고 북한에서는 함경도 지방에 소수가 서식하는 것으로 추측하고 있다."
       ], copyright: " 본 저작물은 ‘국립생태원’에서 ‘2018년’ 작성하여 공공누리 제2유형으로 개방한 ‘한눈에 보는 멸종 위기 야생 생물(국립생물자원관)’을 이용하였으며, 해당 저작물은 ‘국립생태원, www.nie.re.kr’에서 무료로 다운받으실 수 있습니다.")
 }
+
+struct CoverImage: Codable, Identifiable {
+    let id: Int
+    let name: String
+}
